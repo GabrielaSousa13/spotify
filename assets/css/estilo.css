@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.menu{
+    display: flex;
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    position: fixed;
+    width: 100%;
+}
+
+.menu > ul > li{
+    display: inline;
+
+}
+
+.meio{
+    text-align: center;
+    background-image: url(../images/hero-burst.svg);
+    background-repeat: no-repeat;
+    background-size: 1610px 1523px;
+    background-position: top -410px center;
+    width: 1170px;
+    height: 713px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.cima{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cesquerda{
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+
+.baixo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ebaixo > ul >li{
+    display: inline;
+}
+
+.brasil{
+    display: flex;
+}
+
+.cdireita > ul >li{
+    display: inline;
+}
+
+
+
